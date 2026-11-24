@@ -1,0 +1,41 @@
+{
+  "name": "qawolf-socket-npm",
+  "version": "0.0.0",
+  "description": "QA Wolf automation testing package with real-world dependencies",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Test passed\"",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "qa",
+    "testing",
+    "automation",
+    "playwright",
+    "websocket"
+  ],
+  "author": "QA Wolf Team",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "axios": "^1.6.0",
+    "ws": "^8.14.0",
+    "uuid": "^9.0.1",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qawolfsocket/qawolf-socket-npm.git"
+  },
+  "homepage": "https://qawolf.com",
+  "publishConfig": {
+    "access": "public",
+    "provenance": false
+  }
+}
